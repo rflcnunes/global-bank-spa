@@ -7,12 +7,19 @@
         >Our services are designed to cater to your specific needs and goals</span
       >
     </div>
-    <div class="flex flex-col gap-12 p-12 md:items-center">
-      <div class="flex flex-col gap-4 max-w-lg" v-for="article in articles" :key="article">
-        <v-icon class="icon" :icon="article.icon" color="blue-accent-3"></v-icon>
-        <span class="font-bold">{{ article.title }}</span>
-        <p>{{ article.description }}</p>
+    <div class="flex flex-col gap-12 p-12 md:items-center lg:mx-20 lg:flex-row">
+      <div class="w-full flex flex-col gap-6 items-center">
+        <div
+          class="flex flex-col gap-4 max-w-lg"
+          v-for="article in articles"
+          :key="article"
+        >
+          <v-icon class="icon" :icon="article.icon" color="blue-accent-3"></v-icon>
+          <span class="font-bold">{{ article.title }}</span>
+          <p>{{ article.description }}</p>
+        </div>
       </div>
+      <img class="md:w-2/4" src="../assets/group-images.svg" alt="group-image" />
     </div>
   </div>
 </template>
