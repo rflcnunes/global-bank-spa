@@ -1,5 +1,5 @@
 <template>
-  <nav id="am_navbar" class="flex flex-row justify-between items-center py-2 px-4 md:px-20">
+  <nav id="am_navbar" class="flex flex-row justify-between items-center py-4 px-10">
     <LogoText />
 
     <div id="actions">
