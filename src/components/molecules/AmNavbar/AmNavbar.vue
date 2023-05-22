@@ -55,8 +55,8 @@ export default {
           path: '/'
         },
         {
-          name: 'Feature',
-          path: '/feature'
+          name: 'Features',
+          path: '/features'
         },
         {
           name: 'About Us',

@@ -1,6 +1,6 @@
 <script setup>
-import { RouterView } from 'vue-router'
 import AmNavbar from './components/molecules/AmNavbar/AmNavbar.vue'
+import { RouterView } from 'vue-router'
 </script>
 
 <template>
@@ -8,5 +8,7 @@ import AmNavbar from './components/molecules/AmNavbar/AmNavbar.vue'
     <AmNavbar />
   </header>
 
-  <RouterView />
+  <section id="home" class="min-h-screen">
+    <RouterView />
+  </section>
 </template>

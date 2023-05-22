@@ -1,5 +1,5 @@
 <template>
-  <div id="home_view" class="flex flex-col p-4 lg:flex-row lg:justify-between lg:px-20">
+  <div id="home_view" class="flex flex-col p-4 lg:flex-row lg:justify-between lg:px-20 animate__animated animate__fadeIn">
     <div class="max-w-lg flex flex-col items-center justify-center">
       <span class="text-4xl font-bold"
         >Everything you need to scale a <span class="global-team">global team</span></span
